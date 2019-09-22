@@ -1,23 +1,26 @@
-//META{"name":"Forest Green","description":"A theme based on green color and a beautiful forest background-stablerelease","author":"Ruben7173","version":"1.0"}*// {}
+//META{"name":"Planets Galaxy","description":"Fork of Forest Green, not green anymore and is now blue :)","author":"Ruben7173, Estor","version":"1.0"}*// {}
 
-/* imports code and transparency module */
-@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency.css);
-@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Forest-Green-theme/code.css);
-@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/Windows-Activity-buttons.css);
+/* imports code, transparency module and the server bar code */
+@import url(https://raw.githack.com/EstorOG/planets_galaxy/master/Modules/transparency.css);
+@import url(https://raw.githack.com/EstorOG/planets_galaxy/master/planets_galaxy_theme/code.css);
+@import url(https://raw.githack.com/EstorOG/planets_galaxy/master/Addons/Windows-Activity-buttons.theme.css);
+@import url(https://raw.githack.com/EstorOG/planets_galaxy/master/AdjustableServerWidth/base.css);
 
 :root {
 	/* background image URL */
-	--background-image: url('https://images.wallpaperscraft.com/image/forest_fog_sunlight_126926_3840x2160.jpg') center/cover no-repeat;
+	--background-image: url('https://wallpapersite.com/images/wallpapers/stars-2880x1800-planets-galaxy-4k-6345.jpg') center/cover no-repeat;
 	/* Transparency */
     --transparency-level: rgba(0,0,0,0.10); 
 	/* transparency of top windows bar works different from the top one for some reason you have to try different values to match transparecy (aprox value is top value x 3 = result) */
 	--transparency-level-top: rgba(0,0,0,0.34);
 	/* ESC Button color at settings */
-	--ESC-Button-color: rgba(43, 99, 57, 0.9);
+	--ESC-Button-color: rgba(43, 81, 99, 0.9);
 	/* transparency of settings page */
 	--transparency-settings: rgba(0,0,0,0.2);
 	/* Green color of discord logo background and public button */
 	--background-discord-public-color: #1e672d;
+	/* Changes server bar size in pixels */
+	--ASW_size: 35px;
 }
 
 /* any other code write below */
